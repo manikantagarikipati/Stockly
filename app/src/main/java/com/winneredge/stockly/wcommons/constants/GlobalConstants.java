@@ -23,5 +23,5 @@ public class GlobalConstants {
     public static final int ADD_PRODUCT_REQUEST_CODE = 100;
     public static final String EXCEL_EXTENSION = ".xls";
     public static final String USER_SEND_EMAIL_APPLICATION_SELECTOR_TITLE = "Send email Using...";
-    public static String BASE_DIRECTORY = "/Asset Manager";
+    public static String BASE_DIRECTORY = "/Stockly";
 }

@@ -59,6 +59,7 @@ public class HomeActivity extends WActivity {
     }
 
 
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_home,menu);
@@ -92,9 +93,6 @@ public class HomeActivity extends WActivity {
             }
         });
         fabAdd.startAnimation(fabAnimation);
-
-
-
     }
 
     @Override

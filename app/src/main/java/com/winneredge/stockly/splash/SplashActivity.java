@@ -12,7 +12,6 @@ import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.winneredge.stockly.R;
 import com.winneredge.stockly.apptour.AppTourActivity;
@@ -31,7 +30,6 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        TextView getStarted = (TextView)findViewById(R.id.btn_choice2);
         final ImageView logoImageView = (ImageView) findViewById(R.id.img_logo);
 
 
