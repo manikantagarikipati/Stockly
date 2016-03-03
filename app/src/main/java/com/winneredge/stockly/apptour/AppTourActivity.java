@@ -29,9 +29,7 @@ public class AppTourActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_app_tour);
         TextView getStartedInfo = (TextView)findViewById(R.id.get_started);
-        if(!AppUtils.isFirstTimeLaunch(this)){
-            getStartedInfo.setText("Continue");
-        }
+
         ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
 
         viewPager.setAdapter(new ViewPagerAdapter(R.array.icons, R.array.titles, R.array.hints));

@@ -1,9 +1,8 @@
 package com.winneredge.stockly.wcommons.utils;
 
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Environment;
 import android.widget.Toast;
@@ -11,7 +10,6 @@ import android.widget.Toast;
 import com.winneredge.stockly.wcommons.constants.GlobalConstants;
 
 import java.io.File;
-import java.util.List;
 
 /**
  * Created by Manikanta on 2/29/2016.
@@ -23,20 +21,13 @@ public class FileUtils {
 
         Uri uri = FileUtils.getFileUriFromName(fileName+GlobalConstants.EXCEL_EXTENSION);
         Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setDataAndType(uri, "application/vnd.ms-excel");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
-        intent = MediaUtils.filePublisher(fileName, uri, intent);
-        PackageManager packageManager = context.getPackageManager();
-
-        List<ResolveInfo> activities = packageManager.queryIntentActivities(intent, 0);
-
-        boolean isIntentSafe = activities.size() > 0;
-
-        if (isIntentSafe) {
-            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        try {
             context.startActivity(intent);
         }
-        else
-        {
+        catch (ActivityNotFoundException e) {
             Toast.makeText(context, "Cannot open this type of file", Toast.LENGTH_LONG).show();
         }
     }

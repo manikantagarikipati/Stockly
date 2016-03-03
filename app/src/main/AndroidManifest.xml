@@ -50,7 +50,7 @@
             android:value="1" />
         <meta-data
             android:name="W_MODELS"
-            android:value="com.winneredge.assetmanager.wcommons.database.WAsset, com.winneredge.assetmanager.wcommons.database.WStocks" />
+            android:value="com.winneredge.stockly.wcommons.database.WAsset, com.winneredge.stockly.wcommons.database.WStocks" />
 
         <activity
             android:name=".mystocks.HomeActivity"

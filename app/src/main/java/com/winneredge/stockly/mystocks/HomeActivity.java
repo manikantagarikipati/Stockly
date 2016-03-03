@@ -2,7 +2,6 @@ package com.winneredge.stockly.mystocks;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -19,6 +18,7 @@ import com.winneredge.stockly.portfoilio.PortfolioActivity;
 import com.winneredge.stockly.wcommons.activities.WActivity;
 import com.winneredge.stockly.wcommons.constants.GlobalConstants;
 import com.winneredge.stockly.wcommons.database.WStocks;
+import com.winneredge.stockly.wcommons.floatingactionwidget.FloatingActionButton;
 import com.winneredge.stockly.wcommons.recyclerviewaddons.DividerItemDecoration;
 import com.winneredge.stockly.wcommons.utils.CollectionUtils;
 import com.winneredge.stockly.wcommons.utils.ThirdPartyIntentHelper;
@@ -93,12 +93,14 @@ public class HomeActivity extends WActivity {
         });
         fabAdd.startAnimation(fabAnimation);
 
+
+
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        fabAdd.show();
+        fabAdd.setVisibility(View.VISIBLE);
 
             if(requestCode == GlobalConstants.ADD_PRODUCT_REQUEST_CODE){
                 if(resultCode == RESULT_OK){

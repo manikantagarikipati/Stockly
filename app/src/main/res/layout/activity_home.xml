@@ -27,12 +27,13 @@
     <include layout="@layout/content_home" />
     <include layout="@layout/activity_home_empty_view"/>
 
-    <android.support.design.widget.FloatingActionButton
+    <com.winneredge.stockly.wcommons.floatingactionwidget.FloatingActionButton
         android:id="@+id/fab_add_asset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
+
         android:background="@color/colorAccent"
         android:src="@drawable/fab_add" />
 
