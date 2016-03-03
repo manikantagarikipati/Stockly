@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingStart="16dp"
+    android:paddingTop="12dp"
+    android:paddingRight="8dp"
+    android:background="@color/iconsTint"
+    android:paddingEnd="8dp"
+    android:paddingBottom="12dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:contentDescription="@string/empty_image_description"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/stock_thumbnail"/>
+
+    <com.winneredge.stockly.wcommons.widgets.PrimaryTextView
+        android:layout_toEndOf="@+id/stock_thumbnail"
+        android:layout_toRightOf="@+id/stock_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:id="@+id/stock_name"
+        android:textAllCaps="true"
+        android:singleLine="true"
+        android:text="Iphone 6s"
+        android:textColor="@color/textColorPrimary"/>
+
+    <com.winneredge.stockly.wcommons.widgets.SecondaryTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/stock_thumbnail"
+        android:layout_toRightOf="@+id/stock_thumbnail"
+        android:layout_below="@+id/stock_name"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingStart="@dimen/activity_vertical_margin"
+        android:id="@+id/stock_sheet_name"
+        android:text="WorkSheet UnAvailable"
+        android:textSize="14sp"
+        android:textColor="@color/textColorSecondary" />
+
+    <com.winneredge.stockly.wcommons.widgets.SecondaryTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/stock_thumbnail"
+        android:layout_toRightOf="@+id/stock_thumbnail"
+        android:layout_below="@+id/stock_sheet_name"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingStart="@dimen/activity_vertical_margin"
+        android:id="@+id/stock_created_date"
+        android:text="Created On: 12- May - 2015"
+        android:textSize="12sp"
+        android:textColor="@color/textColorSecondary" />
+
+
+
+</RelativeLayout>

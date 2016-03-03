@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingStart="16dp"
+    android:paddingTop="12dp"
+    android:paddingRight="8dp"
+    android:paddingEnd="8dp"
+    android:paddingBottom="12dp"
+    android:background="@color/iconsTint"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:contentDescription="@string/empty_image_description"
+        android:layout_width="54dp"
+        android:layout_centerVertical="true"
+        android:layout_height="54dp"
+        android:id="@+id/asset_thumbnail"/>
+
+    <com.winneredge.stockly.wcommons.widgets.PrimaryTextView
+        android:layout_toEndOf="@+id/asset_thumbnail"
+        android:layout_toRightOf="@+id/asset_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:id="@+id/asset_name"
+        android:textAllCaps="true"
+        android:singleLine="true"
+        android:text="Iphone 6s"
+        android:textColor="@color/textColorPrimary"/>
+
+    <com.winneredge.stockly.wcommons.widgets.SecondaryTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/asset_thumbnail"
+        android:layout_toRightOf="@+id/asset_thumbnail"
+        android:layout_below="@+id/asset_name"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingStart="@dimen/activity_vertical_margin"
+        android:id="@+id/asset_bar_code"
+        android:text="AZ12Y12334555"
+        android:textSize="14sp"
+        android:textColor="@color/textColorSecondary" />
+
+    <com.winneredge.stockly.wcommons.widgets.SecondaryTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/asset_thumbnail"
+        android:layout_toRightOf="@+id/asset_thumbnail"
+        android:layout_below="@+id/asset_bar_code"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingStart="@dimen/activity_vertical_margin"
+        android:id="@+id/asset_created_date"
+        android:text="Created On: 12- May - 2015"
+        android:textSize="12sp"
+        android:textColor="@color/textColorSecondary" />
+
+    <com.winneredge.stockly.wcommons.widgets.SecondaryTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/asset_thumbnail"
+        android:layout_toRightOf="@+id/asset_thumbnail"
+        android:singleLine="true"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingStart="@dimen/activity_vertical_margin"
+        android:id="@+id/number_of_items"
+        android:textColor="@color/textColorSecondary"
+        android:layout_below="@+id/asset_created_date"
+        android:text="@string/number_of_items"/>
+
+    <com.winneredge.stockly.wcommons.widgets.SecondaryTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingStart="@dimen/activity_vertical_margin"
+        android:layout_toEndOf="@+id/asset_thumbnail"
+        android:layout_toRightOf="@+id/asset_thumbnail"
+        android:id="@+id/asset_comments"
+        android:textColor="@color/textColorSecondary"
+        android:layout_below="@+id/number_of_items"
+        android:text="Very Good COndition and urgent delivery needed"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/landing_backgrond"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.winneredge.stockly.apptour.AppTourActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null" />
+
+    <com.winneredge.stockly.appintroanimation.CirclePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/get_started"
+        android:padding="@dimen/padding_normal" />
+
+    <com.winneredge.stockly.wcommons.widgets.PrimaryTextView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/get_started"
+        android:text="Get Started"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textSize="@dimen/primary_text_size"
+        android:textColor="@color/iconsTint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

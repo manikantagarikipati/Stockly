@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".mystocks.HomeActivity">
+
+
+
+    <item
+        android:id="@+id/nav_about_me"
+        android:orderInCategory="100"
+        android:icon="@drawable/about_me"
+        android:title="@string/about_me"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/nav_feedback"
+        android:orderInCategory="101"
+        android:icon="@drawable/nd_settings"
+        android:title="@string/feedback"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/nav_license"
+        android:orderInCategory="102"
+        android:title="@string/licenses"
+        app:showAsAction="never" />
+
+</menu>

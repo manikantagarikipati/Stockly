@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/add_product_include_layout"
+    android:layout_width="match_parent"
+    android:visibility="gone"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_home">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:id="@+id/layout_contents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.winneredge.stockly.wcommons.widgets.PrimaryTextView
+            android:layout_gravity="center_horizontal"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Button"
+            android:textSize="@dimen/primary_text_size"/>
+
+        <com.winneredge.stockly.wcommons.widgets.PrimaryTextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Button"
+            android:textSize="@dimen/primary_text_size"/>
+
+        <com.winneredge.stockly.wcommons.widgets.PrimaryTextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Button"
+            android:textSize="@dimen/primary_text_size"/>
+
+        <com.winneredge.stockly.wcommons.widgets.PrimaryTextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Button"
+            android:textSize="@dimen/primary_text_size"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

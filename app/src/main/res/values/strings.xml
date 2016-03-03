@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Stockly</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="home_empty_text"> Cannot find stocks</string>
+    <string name="empty_image_description">Image UnAvailable</string>
+    <string name="home_empty_subtitle">Tap + button to add one</string>
+    <string name="add_product">Add Asset</string>
+    <string name="barcode">Barcode</string>
+    <string name="product_name">Product Name</string>
+    <string name="title_activity_add_product">AddProductActivity</string>
+    <string name="my_assets">My Assets</string>
+    <string name="about_me">Portfolio</string>
+    <string name="share">Share with friends</string>
+    <string name="tour">App Tour</string>
+    <string name="feedback">Feedback</string>
+    <string name="title_activity_edit_product">EditProductActivity</string>
+    <string name="title_activity_portfolio">PortfolioActivity</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="asset_name">Name</string>
+    <string name="comments">Comments</string>
+    <string name="title_activity_list_of_assets">NA</string>
+    <string name="work_sheet_unavailable">Work Sheet Unavailable</string>
+    <string name="stock_name">Stock Name</string>
+    <string name="add_stock_name_title">Enter the stock name for the assets you want to place in.</string>
+    <string name="asset_empty_title">Add Assets to this stock</string>
+    <string name="asset_empty_subtitle">Press + button below to add an asset</string>
+    <string name="assets_not_added"> Assets not added </string>
+
+    <string name="number_of_assets"> Assets added : %1$s %2$d </string>
+    <string name="number_of_items_per_asset"> Number Of items per asset : %1$s </string>
+    <string name="number_of_items">Number of items</string>
+    <string name="view_sheet">View recently created sheet</string>
+    <string name="done">Done</string>
+
+    <string name="quila_name">Manikanta Garikipati</string>
+    <string name="quila_tagline">Android Craftsmen</string>
+    <string name="quila_name2"> Manikanta </string>
+    <string name="about_me_summary">
+      A skilled android developer having expertise in building world class products
+    </string>
+    <string name="about_me_description">Competent in agile and lean methodologies and best practices</string>
+    <string name="technologies_worked_on">Android sdk, Java, Google maps Api, Push Notification, SQLite , Data Sync Operations,
+                XMPP chat(Openfire) , Reviews platform, Product management platform, Material design</string>
+    <string name="intermediate_knowledge">Spring framework, Hibernate ORM, Spring boot, My Sql</string>
+    <string name="contact_info">Contact Info:</string>
+    <string name="phone_number">+91 9620808880</string>
+    <string name="email">manikanta.garikipati@gmail.com</string>
+    <string name="im_on_internet">I am on the internet, Of Course!</string>
+    <string name="medium_link"> https://medium.com/@manikanta.garikipati/ </string>
+    <string name="wordpress_link"> https://winneredge.wordpress.com/ </string>
+    <string name="hacker_earth_link"> https://www.hackerearth.com/@manikanta.garikipati </string>
+    <string name="stack_overflow"> http://stackoverflow.com/users/3728438/manikanta </string>
+    <string name="github_link">https://github.com/manikantagarikipati</string>
+    <string name="title_activity_app_tour">AppTourActivity</string>
+
+    <string name="tile1">Simplify</string>
+    <string name="title1_hint"> Scan products smartly and sort your stock</string>
+    <string name="title2">Organize</string>
+    <string name="title2_hint">Arrange all your stock with details at your finger tips</string>
+    <string name="title3_hint">Generate and view Excel sheet on a click of a button</string>
+    <string name="title3">Generate</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="splash_sub_title">Manage stock at your finger tips</string>
+    <string name="licenses">Licenses</string>
+    <string name="title_activity_licenses">Licenses</string>
+    <string name="licenses_used">Android SDK, Zxing Library, Butterknife , Active Android , Apache POI ,Clans Floating action button. </string>
+    <string name="licenses_heading">THE FOLLOWING SETS FORTH ATTRIBUTION NOTICES FOR THIRD PARTY SOFTWARE THAT MAY BE INCLUDED IN PORTIONS OF STOCKLY.</string>
+</resources>

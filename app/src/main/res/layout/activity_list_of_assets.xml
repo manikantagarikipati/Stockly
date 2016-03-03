@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".listofassets.ListOfAssetsActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="?actionBarSize"
+        android:id="@+id/rv_list_of_assets"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <include layout="@layout/activity_asset_list_empty_view"/>
+    <com.winneredge.stockly.wcommons.floatingactionwidget.FloatingActionMenu
+        android:id="@+id/add_info_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        app:menu_labels_ellipsize="end"
+        app:menu_labels_singleLine="true"
+        app:menu_colorNormal="@color/colorAccent"
+        app:menu_colorPressed="@color/colorAccent"
+        app:menu_colorRipple="#99FFFFFF"
+        app:menu_backgroundColor="#ccffffff">
+
+        <com.winneredge.stockly.wcommons.floatingactionwidget.FloatingActionButton
+            android:id="@+id/upload_excel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_upload"
+            app:fab_size="mini"
+            app:fab_label="Upload To Excel Sheet" />
+
+        <com.winneredge.stockly.wcommons.floatingactionwidget.FloatingActionButton
+            android:id="@+id/add_asset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fab_add"
+            app:fab_size="mini"
+            app:fab_label="Add Asset" />
+    </com.winneredge.stockly.wcommons.floatingactionwidget.FloatingActionMenu>
+
+</android.support.design.widget.CoordinatorLayout>

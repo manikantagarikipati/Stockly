@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.winneredge.stockly.portfoilio.PortfolioActivity"
+    tools:showIn="@layout/activity_portfolio"
+    app:behavior_overlapTop="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:paddingTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardElevation="8dp"
+            app:contentPadding="8dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.winneredge.stockly.wcommons.widgets.PrimaryTextView
+                    android:paddingTop="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/about_me_summary"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <com.winneredge.stockly.wcommons.widgets.PrimaryTextView
+                    android:padding="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Good at:"/>
+                <com.winneredge.stockly.wcommons.widgets.SecondaryTextView
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/labels_text_size"
+                    android:padding="4dp"
+                    android:text="@string/technologies_worked_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.winneredge.stockly.wcommons.widgets.PrimaryTextView
+                    android:padding="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Also Worked On:"/>
+
+                <com.winneredge.stockly.wcommons.widgets.SecondaryTextView
+                    android:padding="4dp"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/labels_text_size"
+                    android:text="@string/intermediate_knowledge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:paddingTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardElevation="8dp"
+            app:contentPadding="8dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.winneredge.stockly.wcommons.widgets.SecondaryTextView
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/labels_text_size"
+                    android:drawableLeft="@drawable/ic_help_call"
+                    android:drawableStart="@drawable/ic_help_call"
+                    android:text="@string/phone_number"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.winneredge.stockly.wcommons.widgets.SecondaryTextView
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/labels_text_size"
+                    android:drawableLeft="@drawable/ic_help_email1"
+                    android:drawableStart="@drawable/ic_help_email1"
+                    android:text="@string/email"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:paddingTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardElevation="8dp"
+            app:contentPadding="8dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.winneredge.stockly.wcommons.widgets.PrimaryTextView
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="@dimen/labels_text_size"
+                    android:text="@string/im_on_internet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.winneredge.stockly.wcommons.widgets.SecondaryTextView
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/labels_text_size"
+                    android:text="@string/github_link"
+                    android:autoLink="web"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.winneredge.stockly.wcommons.widgets.SecondaryTextView
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/labels_text_size"
+                    android:text="@string/wordpress_link"
+                    android:autoLink="web"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.winneredge.stockly.wcommons.widgets.SecondaryTextView
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/labels_text_size"
+                    android:text="@string/hacker_earth_link"
+                    android:autoLink="web"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.winneredge.stockly.wcommons.widgets.SecondaryTextView
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/labels_text_size"
+                    android:text="@string/stack_overflow"
+                    android:layout_width="match_parent"
+                    android:autoLink="web"
+                    android:layout_height="wrap_content" />
+
+                <com.winneredge.stockly.wcommons.widgets.SecondaryTextView
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:textColor="@color/textColorSecondary"
+                    android:textSize="@dimen/labels_text_size"
+                    android:text="@string/medium_link"
+
+                    android:autoLink="web"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

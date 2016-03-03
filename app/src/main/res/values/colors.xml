@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Only two colors namely primary and accent should be changed -->
+    <color name="colorPrimary">#5E35B1</color>
+    <color name="colorPrimaryDark">#4527A0</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimaryLight">#D1C4E9</color>
+
+    <!--Better not to change these standard color list -->
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#727272</color>
+    <color name="iconsTint">#FFFFFF</color>
+    <color name="divider">#EFEFEF</color>
+    <color name="windowBackground">#C0C3C6</color>
+    <color name="rowBackground">#F2F2F2</color>
+
+
+    <!--Barcode scanner colors -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="colorFAB">#2196F3</color>
+
+
+    <color name="light_green">#3eb74e</color>
+    <color name="light_purple">#8c61b3</color>
+    <color name="light_orange">#ffb500</color>
+    <color name="light_cyan">#00BCD4</color>
+
+
+    <color name="ligh_pink">#EEC5EF</color>
+</resources>

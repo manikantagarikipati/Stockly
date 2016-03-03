@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.winneredge.stockly.licenses.LicensesActivity"
+    tools:showIn="@layout/activity_licenses">
+
+    <com.winneredge.stockly.wcommons.widgets.PrimaryTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/licenses_heading"/>
+
+    <com.winneredge.stockly.wcommons.widgets.SecondaryTextView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/textColorSecondary"
+        android:layout_height="wrap_content"
+        android:text="@string/licenses_used"/>
+</LinearLayout>
