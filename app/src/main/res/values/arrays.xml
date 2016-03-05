@@ -23,7 +23,7 @@
 
     <array name="icons">
         <item>@drawable/email</item>
-        <item>@drawable/calendar</item>
+        <item>@drawable/organise</item>
         <item>@drawable/shopping</item>
 
     </array>

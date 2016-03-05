@@ -45,7 +45,7 @@
     </string>
     <string name="about_me_description">Competent in agile and lean methodologies and best practices</string>
     <string name="technologies_worked_on">Android sdk, Java, Google maps Api, Push Notification, SQLite , Data Sync Operations,
-                XMPP chat(Openfire) , Reviews platform, Product management platform, Material design</string>
+                XMPP(Openfire), Material design</string>
     <string name="intermediate_knowledge">Spring framework, Hibernate ORM, Spring boot, My Sql</string>
     <string name="contact_info">Contact Info:</string>
     <string name="phone_number">+91 9620808880</string>
@@ -53,7 +53,7 @@
     <string name="im_on_internet">I am on the internet, Of Course!</string>
     <string name="medium_link"> https://medium.com/@manikanta.garikipati/ </string>
     <string name="wordpress_link"> https://winneredge.wordpress.com/ </string>
-    <string name="hacker_earth_link"> https://www.hackerearth.com/@manikanta.garikipati </string>
+    <string name="linked_in_link"> https://www.linkedin.com/in/manikantagarikipati </string>
     <string name="stack_overflow"> http://stackoverflow.com/users/3728438/manikanta </string>
     <string name="github_link">https://github.com/manikantagarikipati</string>
     <string name="title_activity_app_tour">AppTourActivity</string>

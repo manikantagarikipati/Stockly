@@ -157,7 +157,7 @@
                     android:paddingBottom="6dp"
                     android:textColor="@color/textColorSecondary"
                     android:textSize="@dimen/labels_text_size"
-                    android:text="@string/hacker_earth_link"
+                    android:text="@string/linked_in_link"
                     android:autoLink="web"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
